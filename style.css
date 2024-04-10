@@ -31,7 +31,7 @@ a {
 }
 
 .heading {
-  height: 400px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -58,6 +58,7 @@ a,
 
 .hero-button {
   background-color: #3882f6;
+  border: none;
 }
 
 button {
@@ -78,23 +79,19 @@ h1 {
   text-align: center;
 }
 
-.body {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
 .info-header {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  margin-bottom: 30px;
 }
 
 .information {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 
 .info-item {
@@ -106,4 +103,56 @@ h1 {
   width: 150px;
   height: 150px;
   border-radius: 10px;
+}
+
+.body-second-div {
+  background-color: #e5e7eb;
+  padding: 100px 320px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.author {
+  text-align: right;
+  font-weight: 900;
+}
+
+.call-to-action-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  gap: 20%;
+  background-color: #3882f6;
+  padding: 50px 100px;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+  width: 100%;
+}
+
+.call-to-action-text {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.call-to-action-button {
+  background-color: #3882f6;
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
 }
